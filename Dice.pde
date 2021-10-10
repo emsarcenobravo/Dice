@@ -43,7 +43,7 @@ void draw()
     }
   }
   fill(200);
-  rect(0, 550, 600, 40);
+  rect(0, 550, 600, 45);
   fill(0);
   textSize(15);
   text("Total Dice Roll: " +numDots, 300, 592);
