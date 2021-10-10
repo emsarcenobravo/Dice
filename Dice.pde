@@ -46,7 +46,7 @@ void draw()
   rect(0, 550, 600, 40);
   fill(0);
   textSize(15);
-  text("Total Dice Roll: " +numDots, 300, 590);
+  text("Total Dice Roll: " +numDots, 300, 592);
   text("One:" +oneCount, 50, 570);
   text("Two:" +twoCount, 150, 570);
   text("Three:" +threeCount, 250, 570);
