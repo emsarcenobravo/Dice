@@ -102,7 +102,7 @@ class Die
   } 
   void show()
   {
-    noStroke();
+    stroke(0);
     fill(240);
     rect(myX, myY, 50, 50, 15);
     if (one == true) {
