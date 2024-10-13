@@ -43,7 +43,7 @@ void draw()
     }
   }
   fill(200);
-  rect(0, 550, 600, 45);
+  rect(0, 550, 599, 45);
   fill(0);
   textSize(15);
   text("Total Dice Roll: " +numDots, 300, 592);
@@ -104,7 +104,7 @@ class Die
   {
     stroke(0);
     fill(240);
-    rect(myX, myY, 50, 50, 15);
+    rect(myX+2, myY, 45, 45, 15);
     if (one == true) {
       fill((int)(Math.random()*256), (int)(Math.random()*256), (int)(Math.random()*256));
       ellipse(myX+25, myY+25, 10, 10);
